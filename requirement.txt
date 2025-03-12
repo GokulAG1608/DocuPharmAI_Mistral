@@ -1,5 +1,0 @@
-pymupdf
-mistralai
-jsonschema
-csv
-re
