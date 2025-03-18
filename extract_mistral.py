@@ -1,4 +1,3 @@
-
 import fitz  # PyMuPDF
 import json
 import csv
