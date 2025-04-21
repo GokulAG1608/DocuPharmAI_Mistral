@@ -44,7 +44,7 @@ def query_mistral_model(api_key, model, text, user_prompt):
         print("Error: Received invalid JSON response from the model.")
         print("Raw Response:", response_content)
         return None
-    
+
     return json_text
 
 # Function to save extracted JSON content into a CSV file with categories as column headers
