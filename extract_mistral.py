@@ -146,7 +146,6 @@ if __name__ == "__main__":
                             }
     '''
 
-
     text = extract_text_from_pdf(pdf_path)
     response = query_mistral_model(api_key, model, text, user_prompt)
     save_json_to_csv(response, csv_path)
