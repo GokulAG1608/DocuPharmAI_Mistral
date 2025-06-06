@@ -34,7 +34,7 @@ def query_mistral_model(api_key, model, text, user_prompt):
         print("Error: Model did not return valid JSON.")
         print("Raw Response:", response_content)
         return None
-        
+
     json_text = match.group(0)
     
     # Ensure response is valid JSON
