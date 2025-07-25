@@ -52,7 +52,7 @@ def save_json_to_csv(json_data, csv_path):
     if not json_data:
         print("Error: No valid JSON data to save.")
         return
-    
+        
     try:
         data = json.loads(json_data)
         
