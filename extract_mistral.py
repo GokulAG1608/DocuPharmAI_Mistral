@@ -65,7 +65,7 @@ def save_json_to_csv(json_data, csv_path):
             
             # Write headers (keys from JSON)
             writer.writerow(data.keys())
-            
+
             # Write values in a single row
             writer.writerow(data.values())
         print(f"Data successfully saved to {csv_path}")
@@ -149,4 +149,5 @@ if __name__ == "__main__":
     text = extract_text_from_pdf(pdf_path)
     response = query_mistral_model(api_key, model, text, user_prompt)
     save_json_to_csv(response, csv_path)
+
 
